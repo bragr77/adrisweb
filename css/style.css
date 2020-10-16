@@ -6,7 +6,7 @@ html {
 
 body {
     line-height: 1.7;
-    color: gray;
+    color: #fff;
     font-weight: 400;
     font-size: 1rem;
 }
@@ -810,12 +810,14 @@ body:after {
 }
 
 .sticky-wrapper .site-navbar .site-menu>li>a {
-    color: rgba(255, 255, 255, 0.7) !important;
+    color: #fff !important;
 }
 
 .sticky-wrapper .site-navbar .site-menu>li>a:hover,
 .sticky-wrapper .site-navbar .site-menu>li>a.active {
-    color: #fff !important;
+    color: #FF57A2 !important;
+    border-bottom: 4px solid #FF57A2;
+    padding-bottom: 2px;
 }
 
 .sticky-wrapper.is-sticky .site-navbar {
@@ -839,7 +841,9 @@ body:after {
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu>li>a:hover,
 .sticky-wrapper.is-sticky .site-navbar .site-menu>li>a.active {
-    color: #007bff !important;
+    color: #FF57A2 !important;
+    border-bottom: 4px solid #FF57A2;
+    padding-bottom: 2px;
 }
 
 
@@ -2295,7 +2299,7 @@ body:after {
 }
 
 .section-title {
-    color: #007bff;
+    color: #fff;
     font-size: 40px;
     font-weight: 900;
 }
@@ -2984,4 +2988,22 @@ figure figcaption {
 
 .single-text .owl-dots .owl-dot.active>span {
     background-color: #fff;
+}
+
+.relleno {
+    background: #bdc3c7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1a1a1a, #bdc3c7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1a1a1a, #bdc3c7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.relleno2 {
+    background: #bdc3c7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1a1a1a, #bdc3c7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1a1a1a, #bdc3c7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
