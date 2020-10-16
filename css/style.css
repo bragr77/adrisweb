@@ -798,6 +798,7 @@ body:after {
 
 .sticky-wrapper .site-navbar {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: #000;
 }
 
 .sticky-wrapper .site-navbar .site-menu-toggle {
@@ -818,14 +819,14 @@ body:after {
 }
 
 .sticky-wrapper.is-sticky .site-navbar {
-    background: #fff;
+    background: #000;
     border-bottom: 1px solid transparent;
     -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
     box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu-toggle {
-    color: #000;
+    color: #fff;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-logo a {
@@ -833,7 +834,7 @@ body:after {
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu>li>a {
-    color: #000 !important;
+    color: #fff !important;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu>li>a:hover,
