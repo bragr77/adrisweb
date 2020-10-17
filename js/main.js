@@ -320,6 +320,13 @@ jQuery(document).ready(function($) {
 	  
 	  $container.isotope({ filter: '*' });
 
+	    // filter items on button click
+	  $('#filters').on( 'click', 'button', function() {
+	    var filterValue = $(this).attr('data-filter');
+	    $container.isotope({ filter: filterValue });
+	    $('#filters button').removeClass('active');
+	    $(this).addClass('active');
+	  });
   }
 
   siteIstotope();
