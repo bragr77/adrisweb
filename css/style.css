@@ -607,6 +607,7 @@ body:after {
     float: left;
     padding-left: 20px;
     padding-right: 20px;
+    background-color: #000;
 }
 
 .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close {
@@ -652,6 +653,7 @@ body:after {
     padding: 0 20px 20px 20px;
     height: calc(100vh - 52px);
     padding-bottom: 150px;
+    background-color: #000;
 }
 
 .site-mobile-menu .site-nav-wrap {
@@ -665,11 +667,14 @@ body:after {
     padding: 10px 20px;
     display: block;
     position: relative;
-    color: #212529;
+    color: #fff;
 }
 
 .site-mobile-menu .site-nav-wrap a:hover {
-    color: #ff57a2;
+    color: #FF57A2 !important;
+    border-bottom: 4px solid #FF57A2;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
 }
 
 .site-mobile-menu .site-nav-wrap li {
@@ -678,7 +683,10 @@ body:after {
 }
 
 .site-mobile-menu .site-nav-wrap li .active {
-    color: #ff57a2;
+    color: #FF57A2 !important;
+    border-bottom: 4px solid #FF57A2;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
 }
 
 .site-mobile-menu .site-nav-wrap .social {
@@ -2991,19 +2999,28 @@ figure figcaption {
 }
 
 .relleno {
-    background: #bdc3c7;
+    background: #000000;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1a1a1a, #bdc3c7);
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1a1a1a, #bdc3c7);
+    background: linear-gradient(to bottom, #434343, #000000);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .relleno2 {
-    background: #bdc3c7;
+    background: #000000;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #1a1a1a, #bdc3c7);
+    background: -webkit-linear-gradient(to top, #434343, #000000);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #1a1a1a, #bdc3c7);
+    background: linear-gradient(to top, #434343, #000000);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.margen {
+    position: absolute;
+    top: 10;
+    left: 20px;
+    right: 0;
+    bottom: 0px;
+    margin: auto;
 }
