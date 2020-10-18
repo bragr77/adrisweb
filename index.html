@@ -30,6 +30,8 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-rfs/bootstrap-rfs.css">
 
+    <link rel="stylesheet" href="css/floating-wpp.min.css">
+
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -415,12 +417,14 @@
                 Este sitio web fue creado Por: <a href="https://rgonzalez.com.ve " target="_blank">Raúl González</a> & <a href="https://www.instagram.com/houstonenterprise/" target="_blank">Houston Enterprise</a></p>
         </footer>
 
+        <div class="" id="myButton"></div>
 
         </div>
         <!-- .site-wrap -->
 
         <script src="js/jquery-3.3.1.min.js "></script>
         <script src="js/jquery-ui.js "></script>
+        <script src="js/floating-wpp.min.js"></script>
         <script src="js/popper.min.js "></script>
         <script src="js/bootstrap.min.js "></script>
         <script src="js/owl.carousel.min.js "></script>
@@ -436,5 +440,21 @@
 
 
 </body>
+
+<script type="text/javascript">
+    $(function() {
+        $('#myButton').floatingWhatsApp({
+            phone: '+18293129274',
+            popupMessage: '¿Cómo podemos Ayudarte?',
+            message: "Ingresa tu mensaje aquí...",
+            showPopup: true,
+            showOnIE: false,
+            headerTitle: 'Chatea con nosotros.',
+            headerColor: '#128C7E',
+            backgroundColor: '#fff',
+            buttonImage: '<img src="img/whatsapp.svg" />'
+        });
+    });
+</script>
 
 </html>
