@@ -29,6 +29,7 @@ a {
 
 a:hover {
     text-decoration: none;
+    color: #ff57a2;
 }
 
 h1,
@@ -107,7 +108,7 @@ body:after {
 
 .btn.btn-primary:hover {
     background: #ff57a2;
-    border-color: #ff57a2;
+    border-color: #a08993;
     color: #fff;
 }
 
